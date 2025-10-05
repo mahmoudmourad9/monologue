@@ -44,7 +44,7 @@ class _HomePageState extends State<HomePage> {
         position.latitude,
         position.longitude,
       );
-
+//تعديل 
       final todayTimes = PrayerApiService.getPrayerForDay(now);
       if (todayTimes != null) {
         setState(() {
