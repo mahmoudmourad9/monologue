@@ -1,0 +1,78 @@
+name: islam
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  hijri: ^3.0.0
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  cupertino_icons: ^1.0.8
+  http: ^1.5.0
+  shared_preferences: ^2.3.3
+  scrollable_positioned_list: ^0.3.8
+  share_plus: ^12.0.0
+  url_launcher: ^6.3.0
+  font_awesome_flutter: ^10.7.0
+  geolocator: ^14.0.2
+  permission_handler: ^12.0.1
+  flutter_screenutil: ^5.5.0
+  intl: ^0.17.0
+  jhijri_picker: ^1.0.0
+  smooth_page_indicator: ^1.2.1
+  
+  
+  # المكتبات المضافة لتشغيل الكود بشكل كامل
+  dio: ^5.5.0
+  screenshot: ^2.5.0
+  path_provider: ^2.1.3
+   
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_native_splash: ^2.4.6
+
+flutter_native_splash:
+  color: "#ffffff"
+  image: assets/logo44.png
+  android: true
+  ios: true
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/azkar.json
+
+  fonts:
+    - family: Pacifico
+      fonts:
+        - asset: assets/font/Pacifico-Regular.ttf
+          style: italic
+    - family: UthmanTNB_v2-0
+      fonts:
+        - asset: assets/font/UthmanTNB_v2-0.ttf
+          style: italic
+    - family: Anton-Regular
+      fonts:
+        - asset: assets/font/Anton-Regular.ttf
+          style: italic
+    - family: quran
+      fonts:
+        - asset: assets/font/HafsSmart_08.ttf
+    - family: me_quran
+      fonts:
+        - asset: assets/font/me_quran.ttf
+    - family: jomhuria
+      fonts:
+        - asset: assets/font/jomhuria-regular-full-org.ttf
