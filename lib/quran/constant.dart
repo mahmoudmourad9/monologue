@@ -1,8 +1,6 @@
 import 'dart:convert';
-
 import 'package:flutter/services.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-
 import 'package:scrollable_positioned_list/scrollable_positioned_list.dart';
 
 int bookmarkedAyah = 1;
@@ -16,7 +14,6 @@ final ItemPositionsListener itemPositionsListener =ItemPositionsListener.create(
 String arabicFont = 'quran';
 double arabicFontSize = 28;
 double mushafFontSize = 40;
-
 Uri quranAppurl = Uri.parse('https://wa.me/201027821272');
 
 Future saveSettings() async {
